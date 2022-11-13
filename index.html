@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | Job Listings</title>
+</head>
+<body>
+  <header>
+    <div class="bg"></div>
+  </header>
+
+  <main>
+
+    <div id="modal-filters" class="modal">
+      <div class="filters">
+        <!-- Role -->
+        <div class="wrap">
+          <button id="frontend-filter">
+            Frontend
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+        
+        <div class="wrap">
+          <button id="backend-filter">
+            Backend
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+          
+          </div>
+          
+        <div class="wrap">
+          <button id="fullstack-filter">
+            Fullstack
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+        
+        <!-- Level -->
+        <div class="wrap">
+          <button id="junior-filter">
+            Junior
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+          </div>
+          
+        <div class="wrap">
+          <button id="midweight-filter">
+            Midweight
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+        
+        <div class="wrap">
+          <button id="senior-filter">
+            Senior
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+        
+        <!-- Languages -->
+        <div class="wrap">
+          <button id="html-filter">
+            HTML
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+
+        <div class="wrap">
+          <button id="css-filter">
+            CSS
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+
+        <div class="wrap">
+          <button id="javascript-filter">
+            JavaScript
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+
+        <div class="wrap">
+          <button id="react-filter">
+            React
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+
+        <div class="wrap">
+          <button id="python-filter">
+            Python
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+
+        <div class="wrap">
+          <button id="ruby-filter">
+            Ruby
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+
+        <div class="wrap">
+          <button id="sass-filter">
+            Sass
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+
+        <div class="wrap">
+          <button id="ror-filter">
+            RoR
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+
+        <div class="wrap">
+          <button id="vue-filter">
+            Vue
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+
+        <div class="wrap">
+          <button id="django-filter">
+            Django
+            <div class="img">
+              <img src="/images/icon-remove.svg" alt="">
+            </div>
+          </button>
+        </div>
+        
+      </div>
+
+      <div id="clear-all" class="clear">
+        <p>Clear</p>
+      </div>
+    </div>
+
+  <div id="1" class="card frontend senior html css javascript">
+    <div class="wrap-container">
+      <img src="./images/photosnap.svg" alt="">
+    <!-- Item Start -->
+    <div class="wrap-content">
+      <div class="header">
+        <h2>Photosnap</h2>
+        <s>New!</s>
+        <s>Featured</s>
+      </div>
+
+      <h1>Senior Frontend Developer</h1>
+
+      <div class="content">
+        <p>1d ago</p>
+        <p>&middot;</p>
+        <p>Full Time</p>
+        <p>&middot;</p>
+        <p>USA only</p>
+      </div>
+  </div>
+  </div>
+
+    <div class="separator"></div>
+
+    <div class="badges">
+      <!-- Role -->
+        <button class="frontend-badge">Frontend</button>
+      <!-- Level -->
+      <button class="senior-badge">Senior</button>
+      <!-- Languages -->
+      <button class="html-badge">HTML</button>
+      <button class="css-badge">CSS</button>
+      <button class="javascript-badge">JavaScript</button>
+      <!-- Item End -->
+    </div>
+  </div>
+
+
+  <div id="2" class="card fullstack midweight python react">
+    <div class="wrap-container">
+      <img src="./images/manage.svg" alt="">
+      <!-- Item Start -->
+      <div class="wrap-content">
+        <div class="header">
+          <h2>Manage</h2>
+          <s>New!</s>
+          <s>Featured</s>
+        </div>
+
+        <h1>Fullstack Developer</h1>
+
+        <div class="content">
+          <p>1d ago</p>
+          <p>&middot;</p>
+          <p>Part Time</p>
+          <p>&middot;</p>
+          <p>Remote</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="badges">
+      <!-- Role -->
+      <button class="fullstack-badge">Fullstack</button>
+      <!-- Level -->
+      <button class="midweight-badge">Midweight</button>
+      <!-- Languages -->
+      <button class="python-badge">Python</button>
+      <button class="react-badge">React</button>
+      <!-- Item End -->
+    </div>
+  </div>
+
+
+  <div id="3" class="card frontend junior javascript react sass">
+    <div class="wrap-container">
+      <img src="./images/account.svg" alt="">
+      <!-- Item Start -->
+      <div class="wrap-content">
+        <div class="header">
+          <h2>Account</h2>
+          <s>New!</s>
+        </div>
+
+        <h1>Junior Frontend Developer</h1>
+
+        <div class="content">
+          <p>2d ago</p>
+          <p>&middot;</p>
+          <p>Part Time</p>
+          <p>&middot;</p>
+          <p>USA only</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="badges">
+      <!-- Role -->
+      <button class="frontend-badge">Frontend</button>
+      <!-- Level -->
+      <button class="junior-badge">Junior</button>
+      <!-- Languages -->
+      <button class="javascript-badge">JavaScript</button>
+      <button class="react-badge">React</button>
+      <button class="sass-badge">Sass</button>
+      <!-- Item End -->
+    </div>
+  </div>
+
+
+  <div id="4" class="card frontend junior css javascript">
+    <div class="wrap-container">
+      <img src="./images/myhome.svg" alt="">
+      <!-- Item Start -->
+      <div class="wrap-content">
+        <div class="header">
+          <h2>MyHome</h2>
+        </div>
+
+        <h1>Junior Frontend Developer</h1>
+
+        <div class="content">
+          <p>5d ago</p>
+          <p>&middot;</p>
+          <p>Part Time</p>
+          <p>&middot;</p>
+          <p>Remote</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="badges">
+      <!-- Role -->
+      <button class="frontend-badge">Frontend</button>
+      <!-- Level -->
+      <button class="junior-badge">Junior</button>
+      <!-- Languages -->
+      <button class="css-badge">CSS</button>
+      <button class="javascript-badge">JavaScript</button>
+      <!-- Item End -->
+    </div>
+  </div>
+
+
+  <div id="5" class="card fullstack midweight javascript sass ruby">
+    <div class="wrap-container">
+      <img src="./images/loop-studios.svg" alt="">
+      <!-- Item Start -->
+      <div class="wrap-content">
+        <div class="header">
+          <h2>Loop Studios</h2>
+        </div>
+
+        <h1>Software Engineer</h1>
+
+        <div class="content">
+          <p>1w ago</p>
+          <p>&middot;</p>
+          <p>Full Time</p>
+          <p>&middot;</p>
+          <p>Worldwide</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="badges">
+      <!-- Role -->
+      <button class="fullstack-badge">Fullstack</button>
+      <!-- Level -->
+      <button class="midweight-badge">Midweight</button>
+      <!-- Languages -->
+      <button class="javascript-badge">JavaScript</button>
+      <button class="sass-badge">Sass</button>
+      <button class="ruby-badge">Ruby</button>
+      <!-- Item End -->
+    </div>
+  </div>
+
+
+  <div id="6" class="card backend junior ruby ror">
+    <div class="wrap-container">
+      <img src="./images/faceit.svg" alt="">
+      <!-- Item Start -->
+      <div class="wrap-content">
+        <div class="header">
+          <h2>FaceIt</h2>
+        </div>
+
+        <h1>Junior Backend Developer</h1>
+
+        <div class="content">
+          <p>2w ago</p>
+          <p>&middot;</p>
+          <p>Full Time</p>
+          <p>&middot;</p>
+          <p>UK only</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="badges">
+      <!-- Role -->
+      <button class="backend-badge">Backend</button>
+      <!-- Level -->
+      <button class="junior-badge">Junior</button>
+      <!-- Languages -->
+      <button class="ruby-badge">Ruby</button>
+      <button class="ror-badge">RoR</button>
+      <!-- Item End -->
+    </div>
+  </div>
+
+
+  <div id="7" class="card frontend junior html javascript sass">
+    <div class="wrap-container">
+      <img src="./images/shortly.svg" alt="">
+      <!-- Item Start -->
+      <div class="wrap-content">
+        <div class="header">
+          <h2>Shortly</h2>
+        </div>
+
+        <h1>Junior Developer</h1>
+
+        <div class="content">
+          <p>2w ago</p>
+          <p>&middot;</p>
+          <p>Full Time</p>
+          <p>&middot;</p>
+          <p>Worldwide</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="badges">
+      <!-- Role -->
+      <button class="frontend-badge">Frontend</button>
+      <!-- Level -->
+      <button class="junior-badge">Junior</button>
+      <!-- Languages -->
+      <button class="html-badge">HTML</button>
+      <button class="javascript-badge">JavaScript</button>
+      <button class="sass-badge">Sass</button>
+      <!-- Item End -->
+    </div>
+  </div>
+
+
+  <div id="8" class="card frontend junior vue javascript sass">
+    <div class="wrap-container">
+      <img src="./images/insure.svg" alt="">
+      <!-- Item Start -->
+      <div class="wrap-content">
+        <div class="header">
+          <h2>Insure</h2>
+        </div>
+
+        <h1>Junior Frontend Developer</h1>
+
+        <div class="content">
+          <p>2w ago</p>
+          <p>&middot;</p>
+          <p>Full Time</p>
+          <p>&middot;</p>
+          <p>USA only</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="badges">
+      <!-- Role -->
+      <button class="frontend-badge">Frontend</button>
+      <!-- Level -->
+      <button class="junior-badge">Junior</button>
+      <!-- Languages -->
+      <button class="vue-badge">Vue</button>
+      <button class="javascript-badge">JavaScript</button>
+      <button class="sass-badge">Sass</button>
+      <!-- Item End -->
+    </div>
+  </div>
+
+
+  <div id="9" class="card fullstack midweight javascript django python">
+    <div class="wrap-container">
+      <img src="./images/eyecam-co.svg" alt="">
+      <!-- Item Start -->
+      <div class="wrap-content">
+        <div class="header">
+          <h2>Eyecam Co.</h2>
+        </div>
+
+        <h1>Full Stack Engineer</h1>
+
+        <div class="content">
+          <p>3w ago</p>
+          <p>&middot;</p>
+          <p>Full Time</p>
+          <p>&middot;</p>
+          <p>Worldwide</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="badges">
+      <!-- Role -->
+      <button class="fullstack-badge">Fullstack</button>
+      <!-- Level -->
+      <button class="midweight-badge">Midweight</button>
+      <!-- Languages -->
+      <button class="javascript-badge">JavaScript</button>
+      <button class="django-badge">Django</button>
+      <button class="python-badge">Python</button>
+      <!-- Item End -->
+    </div>
+  </div>
+
+
+  <div id="10" class="card frontend junior react sass javascript">
+    <div class="wrap-container">
+      <img src="./images/the-air-filter-company.svg" alt="">
+      <!-- Item Start -->
+      <div class="wrap-content">
+        <div class="header">
+          <h2>The Air Filter Company</h2>
+        </div>
+
+        <h1>Front-end Dev</h1>
+
+        <div class="content">
+          <p>1mo ago</p>
+          <p>&middot;</p>
+          <p>Part Time</p>
+          <p>&middot;</p>
+          <p>Worldwide</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="badges">
+      <!-- Role -->
+      <button class="frontend-badge">Frontend</button>
+      <!-- Level -->
+      <button class="junior-badge">Junior</button>
+      <!-- Languages -->
+      <button class="react-badge">React</button>
+      <button class="sass-badge">Sass</button>
+      <button class="javascript-badge">JavaScript</button>
+      <!-- Item End -->
+    </div>
+  </div>
+
+</main>
+
+</body>
+</html>
