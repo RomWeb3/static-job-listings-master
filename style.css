@@ -46,6 +46,7 @@ main {
 .modal {
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.125);
     width: 100%;
+    max-width: 110rem;
     background: white;
     padding: 1.5rem;
     border-radius: 5px;
@@ -221,6 +222,7 @@ h1 {
         justify-content: space-between;
         align-items: center;
         padding: 3rem;
+        max-width: 110rem;
     }
 
     .wrap-container {
